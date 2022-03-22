@@ -1,0 +1,54 @@
+.wrap-top > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-top {
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.container-top > div {
+    background-color: #F1F1F5;
+    color: black;
+    padding: 0px;
+    flex: 50%;
+    height: 70px;
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: 288px;
+}
+
+.container-top > div > ul {
+    display: flex;
+    background-color: #F1F1F5;
+    list-style: none;
+}
+.container-top > div > ul > li {
+    flex: 0 0 auto;
+    margin: 0px;
+    padding: 30px;
+    line-height: 20px;
+}
+.container-top > div > ul > li:nth-child(3) {
+    margin-right: auto;
+}
+
+
+.container-top > div > img {
+    height: 26.36px;
+    width: 26.67px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 0px;
+}
+.container-top > div > span {
+    line-height: 40px;
+    margin-left: 20px;
+    float: left;
+}
+.container-top > div > i {
+    height: 14px;
+    width: 9.17px;
+    margin-left: 50px;
+    margin-right: 20px;
+    float: right;
+}

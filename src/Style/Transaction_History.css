@@ -1,29 +1,29 @@
-.column > div {
+.column-tran > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px 0px 25px;
 }
-.container {
+.container-tran {
     position: static;
-    margin-top: 168px;
+    margin-top: 49px;
     margin-left: 645px;
 }
-.container > div {
-    background-color:#F1F1F5;
+.container-tran > div {
+    background-color: #F1F1F5;
     color: black;
-    height: 1011px;
+    height: 700px;
     width: 738px;
     margin: 0px;
     border-radius: 10px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-.title {
+.title-tran {
     line-height: 100px;
     margin-left: 20px;
 }
-.title > button {
+.title-tran > button {
     margin-top: 40px;
     margin-right: 20px;
     border-radius: 10px;
@@ -31,7 +31,7 @@
     width: 170px;
     float: right;
 }
-.title > input {
+.title-tran > input {
     margin-top: 40px;
     margin-right: 20px;
     border-radius: 10px;
@@ -39,25 +39,25 @@
     width: 182px;
     float: right;
 }
-.table {
+.table-tran {
     border-radius: 10px;
     font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;
     
 }
-.table > table {
+.table-tran > table {
     width: 100%;
 }
-.table > table > tr > th {
+.table-tran > table > tr > th {
     background-color: #FFDD00;
     left: 0px;
 }
-.table > table > tr > td {
+.table-tran > table > tr > td {
     font-size: 16px;
     line-height: 50px;
 }
-.table > table > tr > td > img {
+.table-tran > table > tr > td > img {
     width: 32px;
     height: 32px;
 }

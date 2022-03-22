@@ -4,11 +4,11 @@ const Account_Details = () => {
     return(
         <>
         <div>
-            <div className="column">
-                <div className="container">
+            <div className="column-dts">
+                <div className="container-dts">
                     <div>
-                        <div className="title">Account Details</div>
-                        <div className="list">
+                        <div className="title-dts">Account Details</div>
+                        <div className="list-dts">
                             <li>Account Number</li>
                             <li><b>310121306725</b></li>
                             <br/>

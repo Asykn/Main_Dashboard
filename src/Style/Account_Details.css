@@ -1,15 +1,15 @@
-.column > div {
+.column-dts > div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 26px 20px;
 }
-.container {
+.container-dts {
     position: absolute;
-    margin-top: 168px;
+    margin-top: 49px;
     margin-left: 327px;
 }
-.container > div {
+.container-dts > div {
     background-color: #F1F1F5;
     color: black;
     height: 617px;
@@ -19,11 +19,11 @@
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-.title {
+.title-dts {
     line-height: 80px;
     margin-left: 20px;
 }
-.list{
+.list-dts {
     list-style: none;
     margin-left: 20px;
     font-size: 17px;

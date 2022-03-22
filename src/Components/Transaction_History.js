@@ -4,15 +4,15 @@ const Transaction_History = () => {
     return (
         <>
             <div>
-                <div className="column">
-                    <div className="container">
+                <div className="column-tran">
+                    <div className="container-tran">
                         <div>
-                            <div className="title">
+                            <div className="title-tran">
                                 All Transaction History <img src={require('../images/rectangle.png')} />
                                 <button type="button">Show: Last 30 days <img src={require('../images/rectangle.png')} /></button>
                                 <input type="text" placeholder="Search" name="search"></input>
                             </div>
-                            <div className="table">
+                            <div className="table-tran">
                                 <table>
                                     <tr>
                                         <th>DESCRIPTION</th>

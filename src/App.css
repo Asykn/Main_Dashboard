@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.header {
+  margin-top: 115px;
+  margin-left: 328px;
+}
+.button {
+  background-color: #FFDD00;
+  border-radius: 8px;
+  color: black;
+  width: 208px;
+  height: 38px;
+  margin-left: 1400px;
+}
