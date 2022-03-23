@@ -6,13 +6,13 @@
 }
 .container-dts {
     position: absolute;
-    margin-top: 49px;
+    margin-top: 0px;
     margin-left: 327px;
 }
 .container-dts > div {
     background-color: #F1F1F5;
     color: black;
-    height: 617px;
+    height: 680px;
     width: 300px;
     margin: 0px;
     border-radius: 10px;

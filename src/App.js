@@ -4,12 +4,11 @@ import Account_Details from './Components/Account_Details';
 import Transaction_History from './Components/Transaction_History';
 import Side_Nav from './Components/Side_Nav';
 import Top_Nav from './Components/Top_Nav';
-import sideBar from './Components/sideBar';
 
 function App() {
   return (
     <>
-    <div>
+    {/* <div>
       <Side_Nav />
     </div>
 
@@ -23,15 +22,15 @@ function App() {
 
     <div>
       <Account_Details />
-    </div>
+    </div> */}
 
     <div>
       <Transaction_History />
     </div>
 
-    <div>
+    {/* <div>
       <button className="button">View Statements</button>
-    </div>
+    </div> */}
     </>
   );
 }

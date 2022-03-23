@@ -4,7 +4,52 @@ const Transaction_History = () => {
     return (
         <>
             <div>
-                <div className="column-tran">
+                <div className="container-tran">
+                        <div>
+                            <ul>DESCRIPTION</ul>
+                            <li>
+                                <img src={require('../images/du.png')} />DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment
+                            </li>
+                            <li>
+                                <img src={require('../images/du.png')} />SME First Account
+                            </li>
+                            <li>
+                                <img src={require('../images/du.png')} />Timothy and Brother Fresh Fruit Sdn Bhd
+                            </li>
+                            <li>
+                                <img src={require('../images/du.png')} />Genting Commodities Trading Sdn Bhd
+                            </li>
+                            <li>
+                                <img src={require('../images/du.png')} />DuitNow QR Bizbox Sdn Bhd DuitNow QR Bizbox
+                            </li>
+                            <li>
+                                <img src={require('../images/du.png')} />Timothy and Brother Fresh Fruit Sdn Bhd
+                            </li>
+                            <li>
+                                <img src={require('../images/du.png')} />Timothy and Brother Fresh Fruit Sdn Bhd
+                            </li>
+                            <li>
+                                <img src={require('../images/du.png')} />SME First Account
+                            </li>
+                            <li>
+                                <img src={require('../images/du.png')} />Timothy and Brother Fresh Fruit Sdn Bhd
+                            </li>
+                            <li>
+                                <img src={require('../images/du.png')} />SME First Account
+                            </li>   
+                        </div>
+                        <div>
+                            <div>DATE</div>
+                            <div><img src={require('../images/du.png')} />DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment</div>
+                            <div><img src={require('../images/du.png')} />DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment</div>
+                            <div><img src={require('../images/du.png')} />DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment</div>
+                            
+                        </div>
+                        <div>AMOUNT</div>
+                </div>
+
+
+                {/* <div className="column-tran">
                     <div className="container-tran">
                         <div>
                             <div className="title-tran">
@@ -84,7 +129,7 @@ const Transaction_History = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     );

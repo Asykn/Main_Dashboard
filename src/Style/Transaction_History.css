@@ -1,4 +1,34 @@
-.column-tran > div {
+.container-tran {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 800px;
+    width: 1200px;
+}
+.container-tran > div {
+    color: black;
+    width: 600px;
+    margin: 0px;
+    text-align: left;
+    list-style: none;
+    line-height: 50px;
+    font-size: 20px;
+}
+.container-tran > div > ul {
+    display: flex;
+    background-color: #FFDD00;
+}
+.container-tran > div > ul > li {
+    flex: 0 0 auto;
+    margin: 0px;
+    padding: 30px;
+    line-height: 90px;
+}
+
+
+
+
+/* .column-tran > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,14 +36,14 @@
 }
 .container-tran {
     position: static;
-    margin-top: 49px;
+    margin-top: 0px;
     margin-left: 645px;
 }
 .container-tran > div {
     background-color: #F1F1F5;
     color: black;
     height: 700px;
-    width: 738px;
+    width: 850px;
     margin: 0px;
     border-radius: 10px;
     font-size: 20px;
@@ -60,4 +90,4 @@
 .table-tran > table > tr > td > img {
     width: 32px;
     height: 32px;
-}
+} */
