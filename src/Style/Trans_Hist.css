@@ -1,0 +1,23 @@
+.trans-hist > div {
+    display: flex;
+    justify-content: space-around; 
+}
+.trans-head {
+    width: 693px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #FFDD00;
+}
+.trans-data {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 693px;
+}
+.trans-data > ul {
+    list-style: none;
+}
+.trans-data > ul > li {
+    flex-direction: row;
+}

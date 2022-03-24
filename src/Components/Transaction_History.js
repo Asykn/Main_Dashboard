@@ -3,53 +3,138 @@ import "../Style/Transaction_History.css"
 const Transaction_History = () => {
     return (
         <>
-            <div>
-                <div className="container-tran">
-                        <div>
-                            <ul>DESCRIPTION</ul>
-                            <li>
-                                <img src={require('../images/du.png')} />DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment
-                            </li>
-                            <li>
-                                <img src={require('../images/du.png')} />SME First Account
-                            </li>
-                            <li>
-                                <img src={require('../images/du.png')} />Timothy and Brother Fresh Fruit Sdn Bhd
-                            </li>
-                            <li>
-                                <img src={require('../images/du.png')} />Genting Commodities Trading Sdn Bhd
-                            </li>
-                            <li>
-                                <img src={require('../images/du.png')} />DuitNow QR Bizbox Sdn Bhd DuitNow QR Bizbox
-                            </li>
-                            <li>
-                                <img src={require('../images/du.png')} />Timothy and Brother Fresh Fruit Sdn Bhd
-                            </li>
-                            <li>
-                                <img src={require('../images/du.png')} />Timothy and Brother Fresh Fruit Sdn Bhd
-                            </li>
-                            <li>
-                                <img src={require('../images/du.png')} />SME First Account
-                            </li>
-                            <li>
-                                <img src={require('../images/du.png')} />Timothy and Brother Fresh Fruit Sdn Bhd
-                            </li>
-                            <li>
-                                <img src={require('../images/du.png')} />SME First Account
-                            </li>   
-                        </div>
-                        <div>
-                            <div>DATE</div>
-                            <div><img src={require('../images/du.png')} />DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment</div>
-                            <div><img src={require('../images/du.png')} />DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment</div>
-                            <div><img src={require('../images/du.png')} />DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment</div>
-                            
-                        </div>
-                        <div>AMOUNT</div>
-                </div>
+        <div className="container-tran">
+        <div>
+          <div>DESCRIPTION</div>
+          <div>DATE</div>
+          <div>AMOUNT</div>
+        </div>
+        <ul>
+          <li>
+            <img src={require("../images/du.png")} />
+            DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment
+          </li>
+          <li>
+            <img src={require("../images/du.png")} />
+            SME First Account
+          </li>
+          <li>
+            <img src={require("../images/du.png")} />
+            Timothy and Brother Fresh Fruit Sdn Bhd
+          </li>
+          <li>
+            <img src={require("../images/du.png")} />
+            Genting Commodities Trading Sdn Bhd
+          </li>
+          <li>
+            <img src={require("../images/du.png")} />
+            DuitNow QR Bizbox Sdn Bhd DuitNow QR Bizbox
+          </li>
+          <li>
+            <img src={require("../images/du.png")} />
+            Timothy and Brother Fresh Fruit Sdn Bhd
+          </li>
+          <li>
+            <img src={require("../images/du.png")} />
+            Timothy and Brother Fresh Fruit Sdn Bhd
+          </li>
+          <li>
+            <img src={require("../images/du.png")} />
+            SME First Account
+          </li>
+          <li>
+            <img src={require("../images/du.png")} />
+            Timothy and Brother Fresh Fruit Sdn Bhd
+          </li>
+          <li>
+            <img src={require("../images/du.png")} />
+            SME First Account
+          </li>
+        </ul>
+      </div>
+        {/* <div className="container-tran">
+                <div>
+                    <div className="th">DESCRIPTION</div>
+                    <ul>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            DuitNow QR Bizbox Cafe Sdn Bhd 745194971 Payment
+                        </li>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            SME First Account
+                        </li>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            Timothy and Brother Fresh Fruit Sdn Bhd
+                        </li>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            Genting Commodities Trading Sdn Bhd
+                        </li>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            DuitNow QR Bizbox Sdn Bhd DuitNow QR Bizbox
+                        </li>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            Timothy and Brother Fresh Fruit Sdn Bhd
+                        </li>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            Timothy and Brother Fresh Fruit Sdn Bhd
+                        </li>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            SME First Account
+                        </li>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            Timothy and Brother Fresh Fruit Sdn Bhd
+                        </li>
+                        <li>
+                            <img src={require('../images/du.png')} />
+                            SME First Account
+                        </li>
+                    </ul>   
+                    </div>
 
+                    <div>
+                        <div className="th">DATE</div>
+                        <ul>
+                            <li>23 Jan 2020</li>
+                            <li>23 Apr 2020</li>
+                            <li>23 Jan 2021</li>
+                            <li>23 Jan 2021</li>
+                            <li>23 Jan 2021</li>
+                            <li>23 Jan 2021</li>
+                            <li>23 Jan 2021</li>
+                            <li>23 Jan 2021</li>
+                            <li>23 Jan 2021</li>
+                            <li>23 Jan 2021</li>
+                        </ul>
+                    </div>
 
-                {/* <div className="column-tran">
+                    <div>
+                        <div className="th">AMOUNT</div>
+                        <ul>
+                            <li>-RM 10,000,000.00</li>
+                            <li>-RM 10,000,000.40</li>
+                            <li>-RM 99,900.00</li>
+                            <li>-RM 20,000.00</li>
+                            <li>RM 5,000,000.00</li>
+                            <li>RM 570,000.00</li>
+                            <li>RM 10,000,000.00</li>
+                            <li>RM 6,003.40</li>
+                            <li>RM 10,000,000.00</li>
+                            <li>RM 6,003.40</li>
+                        </ul>
+                    </div>
+            </div> */}
+ 
+
+                {/* <div>
+                    <div className="column-tran">
                     <div className="container-tran">
                         <div>
                             <div className="title-tran">
@@ -129,8 +214,8 @@ const Transaction_History = () => {
                             </div>
                         </div>
                     </div>
-                </div> */}
-            </div>
+                </div> 
+            </div> */}
         </>
     );
 };
