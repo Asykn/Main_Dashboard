@@ -1,45 +1,4 @@
-.container-tran {
-    display: flex;
-    justify-content: space-around;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    /* margin-top: 150px; */
-    /* margin-left: 800px; */
-    width: 1000px;
-}
-.container-tran > div {
-    display: flex;
-    justify-content: space-around;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
-    color: black;
-    width: 700px;
-    margin: 0px;
-    text-align: left;
-    line-height: 50px;
-    font-size: 20px;
-}
-.th {
-    display: flex;
-    flex-wrap: wrap;
-    /* border-radius: 10px; */
-    background-color: #FFDD00;
-}
-.container-tran > div > ul {
-    list-style: none;
-    margin: auto;
-    line-height: 10px;
-    
-}
-.container-tran > div > ul > li {
-    margin: auto;
-    line-height: 60px;
-}
-
-
-
-
-/* .column-tran > div {
+.column-tran > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +12,7 @@
 .container-tran > div {
     background-color: #F1F1F5;
     color: black;
-    height: 700px;
+    height: 1100px;
     width: 850px;
     margin: 0px;
     border-radius: 10px;
@@ -80,25 +39,63 @@
     width: 182px;
     float: right;
 }
-.table-tran {
+.trans-head {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 25px;
     border-radius: 10px;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    
-}
-.table-tran > table {
-    width: 100%;
-}
-.table-tran > table > tr > th {
     background-color: #FFDD00;
-    left: 0px;
+    height: 40px;
+    width: 800px;
+    position: static;
+} 
+.trans-head > div {
+    color: black;
+    margin: 10px;
+    text-align: left;
+    font-weight: bold;
+    line-height: 6px;
+    font-size: 18px;
+    padding: 10px 145px 0px 20px;
 }
-.table-tran > table > tr > td {
-    font-size: 16px;
-    line-height: 50px;
+.trans-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: static;
 }
-.table-tran > table > tr > td > img {
-    width: 32px;
-    height: 32px;
-} */
+.trans-data > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0px;
+    width: 270px;
+    line-height: 25px;
+}
+.desc > img {
+    position: static;
+    margin-right: 12px;
+}
+.date {
+    width: 100px;
+    margin-left: 60px;
+}
+.amount {
+    width: 200px;
+    margin-left: 130px;
+}
+.negative {
+    line-height: 0px;
+    color: red;
+}
+.positive {
+    line-height: 0px;
+    color: green;
+} 

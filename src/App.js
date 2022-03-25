@@ -9,33 +9,29 @@ import Trans_Hist from './Components/Trans_Hist';
 function App() {
   return (
     <>
-    {/* <div>
-      <Side_Nav />
-    </div> */}
-
-    {/* <div>
-      <Top_Nav />
-    </div> */}
-
-    {/* <div className="header">
-      <h2>SME First Account</h2>
-    </div> */}
-
-    {/* <div>
-      <Account_Details />
-    </div> */}
-
-    {/* <div>
-      <Transaction_History />
-    </div> */}
-
     <div>
-      <Trans_Hist />
+      <Side_Nav />
     </div>
 
-    {/* <div>
+    <div>
+      <Top_Nav />
+    </div>
+
+    <div className="header">
+      <h2>SME First Account</h2>
+    </div>
+
+    <div>
+      <Account_Details />
+    </div>
+
+    <div>
+      <Transaction_History />
+    </div>
+
+    <div>
       <button className="button">View Statements</button>
-    </div> */}
+    </div>
     </>
   );
 }

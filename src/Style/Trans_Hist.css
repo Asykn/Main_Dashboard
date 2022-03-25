@@ -1,9 +1,4 @@
-/* .trans-hist > div {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-} */
-.trans-head {
+/* .trans-head {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -11,7 +6,7 @@
     margin-left: 100px;
     border-radius: 10px;
     background-color: #FFDD00;
-    height: 60px;
+    height: 50px;
     width: 800px;
     position: static;
 } 
@@ -29,45 +24,139 @@
     flex-direction: column;
     align-items: flex-start;
     position: static;
-    /* width: 800px; */
-    /* height: 732px; */
-    /* left: 80px; */
-    /* top: 65px; */
-    /*padding: 0px 0px 0px 0px; */
-
-    /* flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 0px; */
 }
 .trans-data > ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding: 0px 0px 0px 50px;
-    
 }
-.trans-data > ul > li {
+.desc {
     display: flex;
     flex-direction: row;
-    margin-left: 40px;
-    padding: 10px 0px 0px 20px;
-
     align-items: center;
-    position: static;
+    margin-left: 70px;
     width: 270px;
-    height: 30px;
-/* 
-    align-items: center;
-    position: static;
-    width: 200px;
-    height: 30px;
-    margin: 10px 0px; */
+    line-height: 25px;
 }
-.trans-data > ul > li > img {
+.desc > img {
     position: static;
     margin-right: 12px;
 }
+.date {
+    width: 100px;
+    margin-left: 60px;
+}
+.amount {
+    width: 200px;
+    margin-left: 130px;
+}
 .negative {
+    line-height: 0px;
     color: red;
 }
+.positive {
+    line-height: 0px;
+    color: green;
+} */
+
+.column-tran > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 25px;
+}
+.container-tran {
+    position: static;
+    margin-top: 0px;
+    margin-left: 645px;
+}
+.container-tran > div {
+    background-color: #F1F1F5;
+    color: black;
+    height: 1100px;
+    width: 850px;
+    margin: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title-tran {
+    line-height: 100px;
+    margin-left: 20px;
+}
+.title-tran > button {
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    float: right;
+}
+.title-tran > input {
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 182px;
+    float: right;
+}
+.trans-head {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: #FFDD00;
+    height: 40px;
+    width: 800px;
+    position: static;
+} 
+.trans-head > div {
+    color: black;
+    margin: 10px;
+    text-align: left;
+    font-weight: bold;
+    line-height: 6px;
+    font-size: 18px;
+    padding: 10px 145px 0px 20px;
+}
+.trans-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: static;
+}
+.trans-data > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0px;
+    width: 270px;
+    line-height: 25px;
+}
+.desc > img {
+    position: static;
+    margin-right: 12px;
+}
+.date {
+    width: 100px;
+    margin-left: 60px;
+}
+.amount {
+    width: 200px;
+    margin-left: 130px;
+}
+.negative {
+    line-height: 0px;
+    color: red;
+}
+.positive {
+    line-height: 0px;
+    color: green;
+} 
