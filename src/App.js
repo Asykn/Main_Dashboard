@@ -11,17 +11,17 @@ function App() {
     <>
     {/* <div>
       <Side_Nav />
-    </div>
+    </div> */}
 
-    <div>
+    {/* <div>
       <Top_Nav />
-    </div>
+    </div> */}
 
-    <div className="header">
+    {/* <div className="header">
       <h2>SME First Account</h2>
-    </div>
+    </div> */}
 
-    <div>
+    {/* <div>
       <Account_Details />
     </div> */}
 

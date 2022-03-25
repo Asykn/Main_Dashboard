@@ -1,3 +1,4 @@
+@media only screen and (max-width: 8000px) {
 .column-dts > div {
     display: flex;
     flex-direction: column;
@@ -27,4 +28,5 @@
     list-style: none;
     margin-left: 20px;
     font-size: 17px;
+}
 }
