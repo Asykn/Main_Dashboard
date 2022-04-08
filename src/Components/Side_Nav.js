@@ -3,91 +3,64 @@ import "../Style/Side_Nav.css";
 const Side_Nav = () => {
     return (
         <>
-        <div className="stretch-side"> 
-            <div className="container-side">
-                <div>
-                    <img src={require('../images/M2U.png')} />
-                    <div className="panel-side"><img src={require('../images/pic.png')} />Canvas Valley</div>
-                    <ul className="list-side">
-                        <li>
-                            <a>
-                            <i><img src={require('../images/path.png')} /></i>
-                            <span>Approvals</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/fill.png')} /></i>
-                            <span>Bill Payment</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/path.png')} /></i>
-                            <span>Transfer</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/path.png')} /></i>
-                            <span>Transaction</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/path.png')} /></i>
-                            <span>Bulk Payment</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/path.png')} /></i>
-                            <span>Request Payment</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/view.png')} /></i>
-                            <span>View Statements</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/view.png')} /></i>
-                            <span>Business Dashboard</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/view.png')} /></i>
-                            <span>Apply</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/invest.png')} /></i>
-                            <span>Investment</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/forex.png')} /></i>
-                            <span>Forex Counter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/invest.png')} /></i>
-                            <span>Inbox</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                            <i><img src={require('../images/sett.png')} /></i>
-                            <span>Setting</span>
-                            </a>
-                        </li>
-                    </ul>
+        <div className="sidebar">
+            <div className="Side-cont">
+                <div className="logo">
+
+                    <div className='subLogo1'>
+                        <img src={require('../images/menu.png')} />
+                    </div>
+
+                    <div className='subLogo2'>
+                        <img src={require('../images/M2U.png')} />
+                    </div>
+
+                    <div className='subLogo3'>
+                        <img src={require('../images/notificationIcon.png')} />
+                    </div>
+                </div>
+                <div className="side-panel">
+                    <div className="img-panel"><img src={require('../images/pic.png')} /></div>
+                    <div className="canvas-valley">Canvas Valley</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Approvals</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Bill Payment</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Transfer</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Scheduled Transactions</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Bulk Payment</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Request Payment</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">View Statements</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Business Dashboard</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Apply</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Investment</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Forex Counter</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Inbox</div>
+                </div>
+                <div className="sidebar-menu">
+                    <div className="menu">Settings</div>
                 </div>
             </div>
         </div>

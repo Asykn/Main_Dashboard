@@ -1,15 +1,10 @@
-@media only screen and (max-width: 8000px) {
 .column-dts > div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 26px 20px;
 }
-.container-dts {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 327px;
-}
+
 .container-dts > div {
     background-color: #F1F1F5;
     color: black;
@@ -20,13 +15,29 @@
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 .title-dts {
     line-height: 80px;
     margin-left: 20px;
 }
+
 .list-dts {
     list-style: none;
     margin-left: 20px;
     font-size: 17px;
 }
+
+@media (max-width: 375px) {
+
+    .column-dts > div {
+        display: flex;
+        flex-direction: column;
+        margin-top: -28px;
+    }
+
+    .container-dts > div {
+        width: 100%;
+        margin-left: -17px;
+    }
+
 }

@@ -7,14 +7,15 @@ const Transaction_History = () => {
             <div className="container-tran">
                 <div>
                     <div className="title-tran">
-                        All Transaction History <img src={require('../images/rectangle.png')} />
-                        <button type="button">Show: Last 30 days <img src={require('../images/rectangle.png')} /></button>
-                        <input type="text" placeholder="Search" name="search"></input>
+                        All Transaction History 
+                        {/* <img src={require('../images/rectangle.png')} /> */}
+                        <button className="search" type="button">Show: Last 30 days <img src={require('../images/rectangle.png')} /></button>
+                        <input className="dropdown" type="text" placeholder="Search" name="search"></input>
                     </div>
                     <div className="trans-head">
-                        <div className="desc">DESCRIPTION</div>
-                        <div>DATE</div>
-                        <div>AMOUNT</div>
+                        <div className="desc_title">DESCRIPTION</div>
+                        <div className="date_title">DATE</div>
+                        <div className="amount_title">AMOUNT</div>
                     </div>
                     <div className="trans-data">
                         <ul>
