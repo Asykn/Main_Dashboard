@@ -10,26 +10,6 @@ import Nickname from './Components/Nickname';
 function App() {
   return (
     <>
-    {/* <div className="container1">
-      <div>
-        <Side_Nav />
-      </div>
-      <div className="container2">
-        <div className="top-nav">
-          <Top_Nav />
-        </div>
-        <div className="first">SME First Account</div>
-        <div className="container3">
-          <div><Account_Details /></div>
-          <div className="cont3-trans"><Transaction_History /></div>
-          <div><button className="button">View Statements</button></div>
-        </div>
-        
-      </div>
-    </div> */}
-
-    
-
     <div className="container1">
         <Side_Nav />
         <div className = "conTry">
@@ -38,7 +18,6 @@ function App() {
           </div>
           <div className="container3">
             <Nickname />
-            {/* <h2 className="sme">SME First Account</h2> */}
             <div className="container4">
               <Account_Details />
               <Transaction_History />
