@@ -43,7 +43,7 @@ export default function BasicModal() {
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
               <Stack spacing={2} direction="row">
-                <div><Button variant="contained">Cancle</Button></div>
+                <div className="cancle"><Button variant="outlined">Cancle</Button></div>
                 <Button variant="contained">Confirm</Button>
               </Stack>
           </Typography>
